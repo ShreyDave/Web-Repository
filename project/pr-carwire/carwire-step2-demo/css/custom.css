@@ -1,0 +1,486 @@
+:root {
+    --grey: #716d6e;
+    --dark-grey: #3d454f;
+    --light-grey: #535C6799;
+    --white: #fff;
+    --black: #000;
+    --light-black: #3d464f;
+    --dark-red: #9b0000;
+    --blue: #0521ab;
+}
+
+/*Font Utilities Start*/
+.f-14 {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.f-18 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.f-20 {
+    font-size: 20px;
+    line-height: 22px;
+}
+.f-24 {
+    font-size: 24px;
+    line-height: 26px;
+}
+.f-26{
+    font-size: 26px !important;
+    line-height: 30px !important;
+}
+.f-28{
+    font-size: 28px;
+    line-height: 30px;
+}
+.f-30{
+    font-size: 30px;
+    line-height: 32px;
+}
+.f-36 {
+    font-size: 36px;
+    line-height: 40px;
+}
+.f-40{
+    font-size: 40px !important;
+    line-height: 44px !important;
+}
+
+.f-48 {
+    font-size: 48px;
+    line-height: 50px;
+}
+.f-60 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.f-100 {
+    font-size: 100px;
+    line-height: 120px;
+}
+
+.f-w-400{
+    font-weight: 400;
+}
+.f-w-700 {
+    font-weight: 700;
+}
+
+.f-w-900 {
+    font-weight: 900;
+}
+
+.f-w-normal {
+    font-weight: normal;
+}
+
+.f-w-bold {
+    font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+    .f-18 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .f-20 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .f-24 {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .f-26{
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    .f-28{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .f-30{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .f-36 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .f-40 {
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    .f-60 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .f-100 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .f-18 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .f-20 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .f-24 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .f-26{
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+    .f-28{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .f-30{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .f-36 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .f-40 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+    .f-60 {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .f-100 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+}
+
+/*Font Utilities End*/
+
+/*Text Utilities Start*/
+.text-grey {
+    color: var(--grey);
+}
+
+.text-white {
+    color: var(--white)
+}
+
+.text-black {
+    color: var(--black)
+}
+.text-light-black{
+    color: var(--light-black);
+}
+.bg-blue {
+    background: var(--blue);
+}
+.bg-white{
+    background: var(--white);
+}
+.bg-dark-grey{
+    background: var(--dark-grey);
+}
+.bg-light-grey{
+    background: var(--light-grey);
+}
+.bg-dark-red {
+    background: var(--dark-red);
+}
+/*Text Utilities End*/
+
+/*Extra Utilities Start*/
+.arrow-down {
+    border-top: 37px solid var(--grey);
+}
+/*Extra Utilities End*/
+
+/*Step-1 Start*/
+/*Header Start*/
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    background-color: var(--white);
+}
+.header .brand-logo img{
+    width: 250px;
+    height: 45px;
+}
+.header .user-logo{
+    width: 50px;
+}
+.header-login {
+    max-width: 199px;
+    /*min-height: 45px ;*/
+}
+.login-arrow {
+    height: 17px;
+    width: 15px;
+}
+
+/*Responsiveness Header Section*/
+@media screen and (max-width: 576px) {
+    .header .brand-logo img{
+        width: 130px;
+        height: 25px;
+    }
+    .header .user-logo{
+        width: 25px;
+    }
+    .header-login{
+        max-width: 100px;
+    }
+    .fdm-img img{
+        width: 90px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .header .brand-logo img{
+        width: 180px;
+        height: 35px;
+    }
+    .header .user-logo{
+        width: 35px;
+    }
+    .header-login{
+        max-width: 120px;
+    }
+    .fdm-img img{
+        width: 110px;
+        height: auto;
+    }
+}
+
+/*Header End*/
+
+/*Banner Start*/
+.banner {
+    min-height: 70vh;
+    background: url(../img/extra-imgs/car-slider.png), linear-gradient(to bottom, #303131 0%, #4d4f4f 50%, #303131 100%);
+    background-position: bottom center;
+    background-repeat: no-repeat, repeat;
+    background-size: 85%;
+    opacity: 0.85;
+}
+.banner .banner-display-box {
+    border: 8px solid var(--dark-red);
+    border-radius: 15px;
+    background-color: #ededed;
+}
+.banner .banner-display-box-left{
+    border-radius: 5px 0 0 5px;
+}
+.banner .banner-display-box img{
+    width: 70px;
+    height: 70px;
+}
+.banner .blank-display{
+    min-width: 545px;
+}
+.banner .fast-forward-arrow img{
+    width: 100px;
+    height: 75px;
+}
+
+/*For Setting Banner Background Height*/
+@media screen and (max-width: 767px) {
+    .banner {
+        min-height: 60vh;
+    }
+}
+/*Responsiveness Banner Section*/
+@media screen and (max-width: 576px) {
+    .banner .banner-display-box img{
+        width: 30px;
+        height: 30px;
+    }
+    .banner .fast-forward-arrow img{
+        width: 65px;
+        height: 40px;
+    }
+    .banner .blank-display{
+        min-width: 150px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .banner .banner-display-box img{
+        width: 50px;
+        height: 50px;
+    }
+    .banner .fast-forward-arrow img{
+        width: 80px;
+        height: 50px;
+    }
+    .banner .blank-display{
+        min-width: 300px;
+    }
+}
+/*Banner End*/
+
+/*Services Start*/
+#services .underline{
+    background-color: var(--dark-red) !important;
+}
+#services .service-box .service-icon{
+    background-color: var(--dark-red) !important;
+}
+/*Services End*/
+
+/*Newsletter Start*/
+.newsletter .social-icon {
+    width: 55px;
+    height: 55px;
+}
+@media screen and (max-width: 576px) {
+    .newsletter .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .newsletter .social-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/*Newsletter End*/
+/*Step-1 End*/
+
+/*Step-3 Start*/
+/*Contact Start*/
+.contact .contact-form input{
+    border: 3px solid var(--light-black);
+}
+.contact-form-email-logo img{
+    width: 70px;
+    height: auto;
+}
+
+.contact .contact-form-submit {
+    border: 2px solid var(--grey);
+}
+
+@media screen and (max-width: 576px) {
+    .contact-form-email-logo img{
+        width: 50px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .contact-form-email-logo img{
+        width: 80px;
+        height: auto;
+    }
+}
+/*Contact End*/
+/*Step-3 End*/
+
+/*Inside Page Start*/
+/*Inside Section Banner Start*/
+.inside-banner {
+min-height: auto;
+}
+
+.inside-banner .steps{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid #ededed;
+    margin: 0 10px;
+}
+.inside-banner .signed{
+    background-color: var(--white) !important;
+    background: url("../img/extra-imgs/ok-mark.png") no-repeat center center;
+    background-size: 50%;
+    border: 5px solid var(--grey);
+}
+
+@media screen and (max-width: 576px) {
+    .inside-banner .steps {
+        width: 30px;
+        height: 30px;
+        margin: 0 4px;
+        border: 2px solid #ededed;
+    }
+    .inside-banner .signed{
+        border: 2px solid var(--grey);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 991px) {
+    .inside-banner .steps {
+        width: 50px;
+        height: 50px;
+        margin: 0 8px;
+        border: 3px solid #ededed;
+    }
+    .inside-banner .signed{
+        border: 3px solid var(--grey);
+    }
+}
+/*Inside Section Banner End*/
+
+
+
+/*Vehicle Info Start*/
+.vehicle-info .vehicle-display{
+    border: 4px solid var(--dark-red);
+}
+.vehicle-info .vehicle-info-submit button{
+    border-radius: 10px;
+    background-color: #535c67;
+}
+.vehicle-info .vehicle-info-forward-img{
+    width: 30px;
+    height: 20px;
+}
+.vehicle-info-features table tr{
+border-bottom: 1px solid #535C6799;
+}
+.vehicle-info-features table td{
+    padding: 5px 0;
+}
+/*Vehicle Info End*/
+
+/*Inside Page End*/
+
+
+/*Step-2 Start*/
+.feature .feature-value{
+    padding: 15px 45px;
+    margin: 5px 0;
+    border: none;
+    background-color: #EFEFF0;
+    border-radius: 10px;
+    color: var(--grey);
+}
+.feature .checked{
+    color: var(--dark-grey);
+    background-image: url("../img/extra-imgs/ok-mark.png"),url("../img/extra-imgs/edit-icon.svg");
+    background-repeat: no-repeat;
+    background-position: left 12px center ,right 12px center;
+    background-size: 3%;
+}
+.feature .feature-variant{
+    border: 1px solid black;
+    border-radius: 500px;
+    padding: 10px 13px;
+    margin: 5px;
+}
+/*Step-2 End*/
