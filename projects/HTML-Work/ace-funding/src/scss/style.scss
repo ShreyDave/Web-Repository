@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/* Other Pages Styles Start */
+@import "home";
+/* Other Pages Styles End */
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #ffffff;
+  --pink: #FE006C;
+  --sky: #EDF4FB;
+  --theme-black: 1 A1A1A;
+}
+
+/* Fonts Start */
+.f-12 {
+  font-size: 12px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.f-40 {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.f-w-400 {
+  font-weight: 400;
+}
+
+.f-w-500 {
+  font-weight: 500;
+}
+
+.f-w-600 {
+  font-weight: 600;
+}
+
+.f-w-700 {
+  font-weight: 700;
+}
+
+.f-w-800 {
+  font-weight: 800;
+}
+
+/* Fonts End */
+
+/* Text Property Start */
+.text-grey {
+  color: var(--theme-black);
+  opacity: 0.6;
+}
+
+.bg-sky {
+  background-color: var(--sky);
+}
+
+/* Text Property End */
+
+.c-pink-btn {
+  display: inline-block;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 200px;
+  border: none;
+  border-radius: 5px;
+}
