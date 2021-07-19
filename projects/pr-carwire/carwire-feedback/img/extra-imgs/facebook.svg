@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 55" width="65" height="55">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #365595 } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<g id="newsletter">
+		<g id="facebook button">
+			<path id="Rechteck 9 Kopie 2" class="shp0" d="M0 0L65 0L65 55L0 55L0 0Z" />
+			<path id="facebook" class="shp1" d="M35.27 17.46C35.27 17.03 35.29 16.7 35.33 16.47C35.37 16.23 35.46 16 35.6 15.77C35.74 15.54 35.97 15.39 36.28 15.3C36.59 15.21 37.01 15.17 37.54 15.17L40.39 15.17L40.39 9.46L35.83 9.46C33.19 9.46 31.29 10.09 30.14 11.34C28.99 12.59 28.42 14.44 28.42 16.88L28.42 20.31L25 20.31L25 26.02L28.42 26.02L28.42 42.57L35.27 42.57L35.27 26.02L39.83 26.02L40.43 20.31L35.27 20.31L35.27 17.46Z" />
+		</g>
+	</g>
+</svg>
